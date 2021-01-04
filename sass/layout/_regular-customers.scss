@@ -1,0 +1,46 @@
+.regular-customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.regular-customers-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+
+  color: var(--primery-text-color);
+
+  display: block;
+  text-align: center;
+}
+.companies {
+  display: flex;
+  justify-content: space-between;
+}
+.company-names-link {
+  display: flex;
+  background-color: var(--primery-background-color);
+  width: 170px;
+  height: 90px;
+  border-radius: 1px;
+  border: #afb1b8 solid 1px;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms var(--timing-function);
+}
+.company-names {
+  margin-top: 50px;
+}
+.company-names-link:hover .company-names-icon,
+.company-names-link:focus .company-names-icon {
+  fill: var(--accent-color);
+}
+.company-names-icon {
+  fill: #afb1b8;
+  transition: fill 250ms var(--timing-function);
+}
+.company-names-link:hover,
+.company-names-link:focus {
+  border-color: var(--accent-color);
+}

@@ -1,0 +1,49 @@
+/*=================================  ПОРТФОЛИО КАТЕГОРИИ  =========================*/
+.category-btn-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primery-text-color);
+  background-color: #f5f4fa;
+  transition: color 250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function);
+}
+.category-btn-title:hover,
+.category-btn-title:focus,
+.category-btn-title:active {
+  color: var(--button-color-title);
+  background-color: var(--button-background-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.list-of-services {
+  padding-top: 94px;
+  padding-bottom: 90px;
+}
+.list-of-services .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.category {
+  display: flex;
+  padding-bottom: 50px;
+}
+.category-btn:not(:last-child) {
+  margin-right: 8px;
+}
+.category-btn-title {
+  padding: 6px 22px;
+  background-color: var(--button-background-color-portfolio);
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0px;
+}
+
+/*=================================  END ПОРТФОЛИО КАТЕГОРИИ  =========================*/
