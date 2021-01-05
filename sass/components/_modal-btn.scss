@@ -1,0 +1,27 @@
+.modal-btn {
+  min-width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px var(--button-color-shadow);
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+
+  color: var(--button-color-title);
+  background-color: var(--button-background-color);
+  cursor: pointer;
+  padding: 10px 32px;
+  transition: color 250ms var(--timing-function);
+}
+.modal-btn:hover,
+.modal-btn:focus,
+.modal-btn:active {
+  color: var(--primery-text-color);
+}
