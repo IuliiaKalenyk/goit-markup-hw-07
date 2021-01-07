@@ -9,11 +9,11 @@
 
   color: var(--accent-color-footer);
   transition: color 250ms var(--timing-function);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .footer-logo {
   margin-bottom: 20px;
-}
-.footer-logotype:hover,
-.footer-logotype:focus {
-  color: var(--accent-color);
 }
