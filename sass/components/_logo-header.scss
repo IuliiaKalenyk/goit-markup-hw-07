@@ -1,9 +1,7 @@
 .logotype {
   color: var(--logo-color-heder);
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
+  @include font(26px, 700, 31px);
   /* identical to box height */
 
   letter-spacing: 0.03em;

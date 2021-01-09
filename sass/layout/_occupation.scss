@@ -2,9 +2,7 @@
   padding-bottom: 94px;
   &-title {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.167;
+    @include font(36px, 700, 42px);
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -34,9 +32,7 @@
     bottom: 0;
 
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.15;
+    @include font(14px, 700, 16px);
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;

@@ -3,9 +3,7 @@
   padding-bottom: 94px;
   &-title {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.167;
+    @include font(36px, 700, 42px);
     letter-spacing: 0.03em;
 
     color: var(--primery-text-color);

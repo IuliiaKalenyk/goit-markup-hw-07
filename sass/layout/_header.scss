@@ -16,9 +16,7 @@
   &-mail,
   &-tel {
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143;
+    @include font(14px, 500, 16px);
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
     fill: var(--secondary-text-color);
@@ -68,9 +66,7 @@
 .menu-nav-link-portfolio,
 .menu-nav-link-contacts {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
+  @include font(14px, 500, 16px);
   letter-spacing: 0.02em;
   color: var(--primery-text-color);
   padding-top: 32px;

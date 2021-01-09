@@ -119,8 +119,8 @@ img {
 
 .header-mail, .header-tel {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
@@ -173,8 +173,8 @@ img {
 .menu-nav-link-portfolio,
 .menu-nav-link-contacts {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--primery-text-color);
@@ -255,8 +255,8 @@ img {
 
 .hero-title {
   font-family: 'Roboto', sans-serif;
-  font-weight: 900;
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.364;
   /* or 136% */
   min-width: 696px;
@@ -335,8 +335,8 @@ img {
 
 .occupation-title {
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
@@ -370,9 +370,9 @@ img {
   position: absolute;
   bottom: 0;
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.15;
+  font-weight: 700;
+  line-height: 1.143;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -395,10 +395,6 @@ img {
   display: flex;
 }
 
-.team-people:not(:last-child) {
-  margin-right: 30px;
-}
-
 .team-people {
   background-color: var(--pictures-background-color);
   /* material shadow v1 */
@@ -406,10 +402,14 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-people:not(:last-child) {
+  margin-right: 30px;
+}
+
 .team-title {
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.167;
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
@@ -420,8 +420,8 @@ img {
 
 .team-employee {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.188;
   /* identical to box height */
   letter-spacing: 0.03em;
@@ -433,8 +433,8 @@ img {
 
 .team-profession {
   font-family: Roboto;
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.188;
   /* identical to box height */
   letter-spacing: 0.03em;
@@ -450,8 +450,8 @@ img {
 
 .regular-customers-title {
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.167;
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
@@ -517,8 +517,8 @@ img {
 
 .footer-maps {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.714;
   /* or 171% */
   letter-spacing: 0.03em;
@@ -527,8 +527,8 @@ img {
 
 .footer-mail, .footer-tel {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.714;
   /* or 171% */
   letter-spacing: 0.03em;
@@ -545,8 +545,8 @@ img {
 
 .footer-title {
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -562,9 +562,9 @@ img {
   display: block;
   margin-bottom: 20px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.15;
+  font-weight: 700;
+  line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -584,8 +584,8 @@ img {
   border-radius: 4px;
   background-color: #2f303a;
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.25;
   /* identical to box height, or 125% */
   letter-spacing: 0.03em;
@@ -652,8 +652,8 @@ img {
 .modal-title {
   display: block;
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 700;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
@@ -664,9 +664,9 @@ img {
 .form-label {
   margin-bottom: 10px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-size: 12px;
-  line-height: 1.17;
+  font-weight: 400;
+  line-height: 1.167;
   /* identical to box height */
   letter-spacing: 0.01em;
   color: var(--secondary-text-color);
@@ -712,9 +712,9 @@ img {
   padding: 12px 16px;
   resize: none;
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.15;
+  font-weight: 400;
+  line-height: 1.143;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
   transition: border-color 250ms var(--timing-function);
@@ -728,9 +728,9 @@ img {
 
 .modal-form-policy-text {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.72;
+  font-weight: 400;
+  line-height: 1.714;
   /* identical to box height, or 171% */
   letter-spacing: 0.03em;
   color: #757575;
@@ -765,9 +765,9 @@ img {
   height: 50px;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  font-weight: 700;
+  line-height: 1.875;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: transparent;
@@ -786,8 +786,8 @@ img {
 .logotype {
   color: var(--logo-color-heder);
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.192;
   /* identical to box height */
   letter-spacing: 0.03em;
@@ -805,8 +805,8 @@ img {
 
 .footer-logotype {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.192;
   /* identical to box height */
   letter-spacing: 0.03em;
@@ -828,8 +828,8 @@ img {
   box-shadow: 0px 4px 4px var(--button-color-shadow);
   border-radius: 4px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.875;
   /* identical to box height, or 187% */
   display: flex;
@@ -924,9 +924,9 @@ img {
   width: 200px;
   height: 50px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  font-weight: 700;
+  line-height: 1.875;
   /* identical to box height, or 187% */
   letter-spacing: 0.06em;
   color: #ffffff;
